@@ -7,4 +7,5 @@ The functions of creating a stack (constructor), deleting a stack (destructor), 
 ### How to run
 
 gcc stack.cpp main.cpp -o stack 
+
 ./stack 
