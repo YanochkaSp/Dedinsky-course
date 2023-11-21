@@ -1,0 +1,5 @@
+push
+add
+sub
+div
+out
