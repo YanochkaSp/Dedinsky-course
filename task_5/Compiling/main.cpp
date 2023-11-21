@@ -26,6 +26,10 @@ void NameToNum (FILE *fnames, FILE *fnumbers)
             {
                 commandNum = i;
             }
+            if (strcmp(command,"out")  == 0)
+            {
+                commandNum = -1;
+            }
         }
         fprintf (fnumbers, "%d\n", commandNum);
     }
