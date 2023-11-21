@@ -14,4 +14,6 @@ const char *COMMANDS[] = {"push", "add", "sub", "div", "out"};
 
 const int MAX_LINE_LEN = 8;
 
+void NameToNum (FILE *fnames, FILE *fnumbers);
+
 #endif
